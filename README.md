@@ -15,7 +15,7 @@ Install Certbot and obtain an SSL certificate for your domain. make sure your ho
 
   # Obtain SSL certificate
   # sudo certbot certonly --standalone -d <Keycloak server domain> -m <your email> --agree-tos
-  sudo certbot certonly --standalone -d keycloak-shiv.duckdns.org -m test@gamil.com --agree-tos
+  sudo certbot certonly --standalone -d keycloak-dev.abc.com -m test@gamil.com --agree-tos
 ```
 ## Clone https://github.com/syed-saad-zahidi/keycloak-postgres-nginx-setup repo
 ```
